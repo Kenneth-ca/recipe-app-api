@@ -23,3 +23,8 @@ docker-compose run --rm app sh -c "python manage.py collectstatic"
 * run: start a specific container defined in config
 * --rm: removes the container
 * sh -c: passes in a shell command
+
+```
+docker-compose run --rm app sh -c "flake8"
+docker-compose run --rm app sh -c "django-admin startproject app ."
+```
