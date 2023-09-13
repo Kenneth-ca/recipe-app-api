@@ -28,3 +28,8 @@ docker-compose run --rm app sh -c "python manage.py collectstatic"
 docker-compose run --rm app sh -c "flake8"
 docker-compose run --rm app sh -c "django-admin startproject app ."
 ```
+
+## How to run application
+```
+docker-compose up
+```
